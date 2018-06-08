@@ -1,0 +1,31 @@
+{
+  "name": "ssr1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^7.1.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^1.17.5",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3",
+    "koa-views": "^6.1.4",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
